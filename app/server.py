@@ -9,10 +9,26 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://www.dropbox.com/s/6bgq8t6yextloqp/export.pkl?raw=1'
-export_file_name = 'export.pkl'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1n5P9l7UhU_dZ8-O3WxIvH1T7AHDDQaoP'
+export_file_name = 'train_resnet_model_50.pkl'
 
-classes = ['black', 'grizzly', 'teddys']
+classes = ['agriculture',
+ 'artisinal_mine',
+ 'bare_ground',
+ 'blooming',
+ 'blow_down',
+ 'clear',
+ 'cloudy',
+ 'conventional_mine',
+ 'cultivation',
+ 'habitation',
+ 'haze',
+ 'partly_cloudy',
+ 'primary',
+ 'road',
+ 'selective_logging',
+ 'slash_burn',
+ 'water']
 path = Path(__file__).parent
 
 app = Starlette()
