@@ -9,8 +9,8 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/uc?export=download&id=1n5P9l7UhU_dZ8-O3WxIvH1T7AHDDQaoP'
-export_file_name = 'train_resnet_model_50.pkl'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1mfAJVHV1pwt2knzblRKQlhkidr46sY-_'
+export_file_name = 'Resnet_model_50.pkl'
 
 classes = ['agriculture',
  'artisinal_mine',
